@@ -1,11 +1,10 @@
-body {
-    margin:0px;
+ body{
+    overflow : hidden;
+    margin:auto;
 }
 .top {
-   position: absolute;
-   margin-top: 10px;
    width:100%;
-   height:10%;
+   /* height:10%;  */
 }
 
 .static_links{
@@ -53,20 +52,13 @@ a{
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
-.whole_content {
-    height: 100%;
-}
-.w-100 {
-    width:100%;
-}
-.image-container {
+.image-container, img {
+    position: absolute;
+    margin:auto;
     width: 100%; 
-    height:100%; 
-}
-img{
-    width:100%;
-    vertical-align: middle;
+    height:96%; 
+   
+    border:1px black solid; 
 }
  .slides{
     display:none;
@@ -86,7 +78,7 @@ img{
 .number_container {
     color: #f2f2f2;
     font-size: 12px;
-    padding: 8px 12px;
+    /* padding: 8px 12px; */
     position: absolute;
     width:100%;
     text-align: center;
@@ -115,15 +107,14 @@ img{
     text-align:center;
     position: absolute;
     bottom: 1px;
-    border:1px black solid;
     width:100%;
+    height:10%;
   }
   .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
-   
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
