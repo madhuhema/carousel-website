@@ -45,3 +45,12 @@ var i;
   dots[slideIndex2-1].className += " active";
   setTimeout(showSlides2, 4000);
 }
+function login(){
+  alert("Please signup before you login!");
+}
+// function signUp(){
+//   var theButton = document.getElementsByClassName('signUp');
+
+//     theButton.onclick = function() { 
+//         document.getElementById('signUpForm').style.visibility='hidden'; 
+// }
